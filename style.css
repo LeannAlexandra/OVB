@@ -18,7 +18,15 @@
 }
 
 #mainNavbar {
-    background-image: linear-gradient(to right, white 20%, var(--clr-secondary-transparent), var(--clr-tersary-transparent), white, white);
+    background-image: linear-gradient(to bottom,white, transparent,transparent,white),linear-gradient(to right, rgba(255, 255, 255, 0.5) 20%, var(--clr-secondary-transparent), var(--clr-tersary-transparent), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+#info{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    color: var(--clr-txt);
+}
+#testname{
+    font-size: 5rem;
 }
 
 .mainBrand {
@@ -39,6 +47,8 @@ body {
     /* background-color: var(--clr-bg); */
     font-family: 'Comfortaa', sans-serif;
     text-align: center;
+    background-image: linear-gradient(to bottom, white 1%, transparent),linear-gradient(to bottom right, var(--clr-secondary-transparent), var(--clr-tersary-transparent));
+
 }
 
 
@@ -58,7 +68,6 @@ body {
 }
 
 .intro {
-    background-image: linear-gradient(to bottom right, var(--clr-secondary-transparent), var(--clr-tersary-transparent));
 }
 
 .img-fluid {
