@@ -67,8 +67,8 @@ body {
     margin: 0 auto;
 }
 
-.intro {
-}
+/* .intro {
+} */
 
 .img-fluid {
     height: 500px;
@@ -132,8 +132,16 @@ body {
     text-align: center;
     color: var(--clr-primary);
     background-color: var(--clr-bg);
-
+    box-shadow: 0 0 15px black;
+    margin-bottom: -06px;
+    padding-bottom: 0px;
 }
+/* img{
+    box-shadow: 0 0 35px black; 
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+} */
 
 /* FOR USING OTHER LINKS>> */
 #footer a {
@@ -188,7 +196,17 @@ body {
     font-size: 1.3rem;
     color: var(--clr-accent);
 }
+.contact{
+    margin: 6% 0;
+}
 
+#intro{
+    box-shadow: 0 0 15px black;
+}
+
+nav{
+    box-shadow: 0 0 15px black;
+}
 @media (min-with: 1200px) {
     .content p {
         max-width: 80%;
