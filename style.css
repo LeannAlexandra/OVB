@@ -26,7 +26,7 @@
     color: var(--clr-txt);
 }
 #testname{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .mainBrand {
@@ -98,6 +98,7 @@ body {
     display: inline-block;
     /* background-color: var(--clr-primary); */
     /* border-radius: 60px; */
+    max-width: 90%;
     text-align: center;
     margin: 0 auto;
     padding: 60px 40px;
