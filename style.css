@@ -132,7 +132,7 @@ body {
     text-align: center;
     color: var(--clr-primary);
     background-color: var(--clr-bg);
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     margin-bottom: -06px;
     padding-bottom: 0px;
 }
@@ -200,12 +200,20 @@ body {
     margin: 6% 0;
 }
 
-#intro{
+/* #intro{
     box-shadow: 0 0 15px black;
-}
+} */
 
 nav{
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.sharespace{
+    max-width: 150px;
+    display: inline-block;
+}
+#inputform{
+    max-width: 500px;
+    margin: 0 auto;
 }
 @media (min-with: 1200px) {
     .content p {
